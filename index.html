@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__left">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+          alt=""
+        />
+        <div class="header__input">
+          <span class="material-icons"> search </span>
+          <input type="text" placeholder="Search Facebook" />
+        </div>
+      </div>
+
+      <div class="header__middle">
+        <div class="header__option active">
+          <span class="material-icons"> home </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> flag </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> subscriptions </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> storefront </span>
+        </div>
+        <div class="header__option">
+          <span class="material-icons"> supervised_user_circle </span>
+        </div>
+      </div>
+
+      <div class="header__right">
+        <div class="header__info">
+          <img src="images/user 1.jpeg" alt="" class="user__avatar">
+          <h4>Mohammad Hassan</h4>
+        </div>
+        <span class="material-icons"> add </span>
+        <span class="material-icons"> forum </span>
+        <span class="material-icons"> notifications_active </span>
+        <span class="material-icons"> expand_more </span>
+      </div>
+    </div>
+
+    <div class="main__body">
+      <div class="sidebar">
+        <div class="sidebarRow">
+          <img src="images/user 1.jpeg" alt="" class="user__avatar">
+          <h4>Mohammad Hassan</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> local_hospital </span>
+          <h4>Medical Information Center</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> emoji_flags </span>
+          <h4>Pages</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> people </span>
+          <h4>People</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> chat </span>
+          <h4>Messenger</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> storefront </span>
+          <h4>Marketplace</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> video_library </span>
+          <h4>Videos</h4>
+        </div>
+
+        <div class="sidebarRow">
+          <span class="material-icons"> expand_more </span>
+          <h4>More</h4>
+        </div>
+      </div>
+
+      <div class="feed">
+        <div class="storyReel">
+          <div
+            style="
+              background-image: url('images/user\ 1.jpeg');
+            "
+            class="story"
+          >
+            <h4>M.Hassan</h4>
+          </div>
+
+          <div style="background-image: url('./images/User.jpg')" class="story">
+            <h4>Ismail</h4>
+          </div>
+
+          <div
+            style="background-image: url('./images/User2.jpg')"
+            class="story"
+          >
+            <h4>Ahmed</h4>
+          </div>
+
+          <div
+            style="background-image: url('./images/User3.jpg')"
+            class="story"
+          >
+            <h4>Azaan</h4>
+          </div>
+
+          <div
+            style="background-image: url('./images/User\ 4.jpg')"
+            class="story"
+          >
+            <h4>Sheroz</h4>
+          </div>
+
+          <div
+            style="background-image: url('./images/User\ 5.jpg')"
+            class="story"
+          >
+            <h4>Arman</h4>
+          </div>
+        </div>
+
+        <div class="messageSender">
+          <div class="messageSender__top">
+            <img src="images/user 1.jpeg" alt="" class="user__avatar" />
+            <form>
+              <input
+                class="messageSender__input"
+                placeholder="What's on your mind?"
+                type="text"
+              />
+            </form>
+          </div>
+
+          <div class="messageSender__bottom">
+            <div class="messageSender__option">
+              <span style="color: red" class="material-icons"> videocam </span>
+              <h3>Live</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: green" class="material-icons">
+                photo_library
+              </span>
+              <h3>Photo</h3>
+            </div>
+
+            <div class="messageSender__option">
+              <span style="color: orange" class="material-icons">
+                insert_emoticon
+              </span>
+              <h3>Feeling</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post__top">
+            <img
+              src="images/User2.jpg"
+              alt=""
+              class="user__avatar post__avatar"
+            />
+            <div class="post__topInfo">
+              <h3>Ahmed</h3>
+              <p>12 June at 20:30</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>
+              “Do not go where the path may lead; go instead where there is no
+              path and leave a trail.” – Ralph Waldo Emerson
+            </p>
+          </div>
+
+          <div class="post__image">
+            <img src="" alt="" />
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post__top">
+            <img
+              src="images/User 5.jpg"
+              alt=""
+              class="user__avatar post__avatar"
+            />
+            <div class="post__topInfo">
+              <h3>Arman</h3>
+              <p>25 May at 16:50</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>
+              Your time is limited, so don't waste it living someone else's
+              life. Don't be trapped by dogma – which is living with the results
+              of other people's thinking. -Steve Jobs
+            </p>
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="post">
+          <div class="post__top">
+            <img
+              src="images/User 4.jpg"
+              alt=""
+              class="user__avatar post__avatar"
+            />
+            <div class="post__topInfo">
+              <h3>Sheroz</h3>
+              <p>16 January at 12:27</p>
+            </div>
+          </div>
+
+          <div class="post__bottom">
+            <p>
+              The best and most beautiful things in the world cannot be seen or
+              even touched - they must be felt with the heart. -Helen Keller
+            </p>
+          </div>
+
+          <div class="post__options">
+            <div class="post__option">
+              <span class="material-icons"> thumb_up </span>
+              <p>Like</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> chat_bubble_outline </span>
+              <p>Comment</p>
+            </div>
+
+            <div class="post__option">
+              <span class="material-icons"> near_me </span>
+              <p>Share</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="flex: 0.33" class="widgets">
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/facebook"
+          data-tabs="timeline"
+          data-width="500"
+          data-height="1000"
+          data-small-header="false"
+          data-adapt-container-width="true"
+          data-hide-cover="false"
+          data-show-facepile="true"
+        >
+          <blockquote
+            cite="https://www.facebook.com/facebook"
+            class="fb-xfbml-parse-ignore"
+          >
+            <a href="https://www.facebook.com/facebook">Facebook</a>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0"
+      nonce="zUxEq08J"
+    ></script>
+  </body>
+</html>
